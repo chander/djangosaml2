@@ -31,7 +31,7 @@ if sys.version_info < (3, 4):
 
 setup(
     name='djangosaml2',
-    version='0.17.2',
+    version='0.17.3',
     description='pysaml2 integration for Django',
     long_description='\n\n'.join([read('README.rst'), read('CHANGES')]),
     classifiers=[
@@ -61,8 +61,8 @@ setup(
     author="Yaco Sistemas and independent contributors",
     author_email="lgs@yaco.es",
     maintainer="Jozef Knaperek",
-    url="https://github.com/knaperek/djangosaml2",
-    download_url="https://pypi.python.org/pypi/djangosaml2",
+    url="https://github.com/chander/djangosaml2.git",
+    download_url="https://github.com/chander/djangosaml2.git",
     license='Apache 2.0',
     packages=find_packages(exclude=["tests", "tests.*"]),
     include_package_data=True,
